@@ -8,25 +8,6 @@ import java.util.*;
  */
 public class Day_02_Binary_Tree_Level_Order_Traversal_II {
 
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        public TreeNode() {
-        }
-
-        public TreeNode(int val) {
-            this.val = val;
-        }
-
-        public TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     // 1. Using Collections Reverse
     class Solution {
         public List<List<Integer>> levelOrderBottom(TreeNode root) {
