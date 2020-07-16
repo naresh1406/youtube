@@ -36,7 +36,7 @@ public class Day_15_Reverse_Words_in_a_String {
     }
 
     // 2.
-    class StirngBuilder {
+    class Solution2 {
         public String reverseWords(String s) {
             String[] words = s.trim().split(" +");
             StringBuilder sb = new StringBuilder();
