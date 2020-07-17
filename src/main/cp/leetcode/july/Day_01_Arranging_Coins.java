@@ -18,7 +18,7 @@ public class Day_01_Arranging_Coins {
     }
 
     // Binary Search
-    class Solution {
+    class Solution2 {
         public int arrangeCoins(int n) {
             long start = 0, end = n;
             long k, curr;
@@ -34,7 +34,7 @@ public class Day_01_Arranging_Coins {
     }
 
     // Math
-    class Solution {
+    class Solution3 {
         public int arrangeCoins(int n) {
             return (int)(Math.sqrt((8L * n + 1)) - 1)/2;
         }
