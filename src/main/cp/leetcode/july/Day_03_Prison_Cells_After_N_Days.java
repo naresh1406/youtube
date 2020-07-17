@@ -26,7 +26,7 @@ public class Day_03_Prison_Cells_After_N_Days {
     }
 
     // 2. Cycle with Seen
-    class Solution {
+    class Solution2 {
         public int[] prisonAfterNDays(int[] cells, int N) {
             Set<String> seen = new HashSet();
             boolean cycle = false;
@@ -57,7 +57,7 @@ public class Day_03_Prison_Cells_After_N_Days {
     }
 
     // 1, 7, 14 Cycle
-    class Solution {
+    class Solution3 {
         public int[] prisonAfterNDays(int[] cells, int N) {
             N = (N - 1) % 14 + 1;
             for (int i = 0; i < N; i++)

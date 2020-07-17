@@ -13,7 +13,7 @@ public class Day_05_Hamming_Distance {
     }
 
     // 2. XOR with custom bitCount
-    class Solution {
+    class Solution2 {
         public int hammingDistance(int x, int y) {
             return bitCount(x ^ y);
         }
@@ -31,7 +31,7 @@ public class Day_05_Hamming_Distance {
     }
 
     // 3. XOR with custom bitCount using bitwise &
-    class Solution {
+    class Solution3 {
         public int hammingDistance(int x, int y) {
             return bitCount(x ^ y);
         }
@@ -48,7 +48,7 @@ public class Day_05_Hamming_Distance {
     }
 
     // 4. WithoutXOR
-    class Solution {
+    class Solution4 {
         // TC - O(32) ~ O(1)
         public int hammingDistance(int x, int y) {
             int hd = 0;

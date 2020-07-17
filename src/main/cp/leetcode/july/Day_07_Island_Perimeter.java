@@ -29,7 +29,7 @@ public class Day_07_Island_Perimeter {
     }
 
     // 2. 2 direction check
-    class Solution {
+    class Solution2 {
         public int islandPerimeter(int[][] grid) {
             int perimeter = 0;
             for (int i = 0; i < grid.length; i++) {
@@ -47,7 +47,7 @@ public class Day_07_Island_Perimeter {
     }
 
     // 3. DFS
-    public class Solution {
+    public class Solution3 {
         public int islandPerimeter(int[][] grid) {
             for (int i = 0; i < grid.length; i++) {
                 for (int j = 0; j < grid[0].length; j++) {

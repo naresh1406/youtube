@@ -18,7 +18,7 @@ public class Day_12_Reverse_Bits {
     }
 
     // 2. 1-Liner using Integer.reverse()
-    class Solution {
+    class Solution2 {
         public int reverseBits(int n) {
             return Integer.reverse(n);
         }

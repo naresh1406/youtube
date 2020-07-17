@@ -18,7 +18,7 @@ public class Day_13_Same_Tree {
     }
 
     // 2. Iterative using 1 Queue
-    class Iterative {
+    class Solution2 {
         public boolean isSameTree(TreeNode p, TreeNode q) {
             Queue<TreeNode> queue = new LinkedList<>();
             queue.add(p);

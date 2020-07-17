@@ -27,7 +27,7 @@ public class Day_11_Subsets {
     }
 
     // 2. Recursive Backtrack
-    class Backtrack {
+    class Solution2 {
         public List<List<Integer>> subsets(int[] nums) {
             List<List<Integer>> result = new ArrayList();
             generateSubsets(nums, 0, new ArrayList(), result);

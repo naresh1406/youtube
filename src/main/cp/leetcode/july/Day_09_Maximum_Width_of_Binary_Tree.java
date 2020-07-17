@@ -57,7 +57,7 @@ public class Day_09_Maximum_Width_of_Binary_Tree {
     }
 
     // 2. DFS
-    class Solution {
+    class Solution2 {
         public int widthOfBinaryTree(TreeNode root) {
             List<Integer> levelLMN = new ArrayList<>(); // levelLMN level left most node
             return dfs(root, 1, 0, levelLMN);

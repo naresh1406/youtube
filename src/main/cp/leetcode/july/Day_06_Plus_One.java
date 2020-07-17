@@ -25,7 +25,7 @@ public class Day_06_Plus_One {
     }
 
     // 2. Recursive
-    class Solution {
+    class Solution2 {
         public int[] plusOne(int[] digits) {
             return plusOne(digits, digits.length - 1);
         }

@@ -30,7 +30,7 @@ public class Day_04_Ugly_Number_II {
     }
 
     // 2. Pre-compute All Ugly Numbers
-    class Solution {
+    class Solution2 {
         int nthUglyNumber(int n) {
             List<Integer> ugly = new ArrayList<>();
             long two, three, five, m = Integer.MAX_VALUE; // long - not let overflow.
@@ -44,7 +44,7 @@ public class Day_04_Ugly_Number_II {
     }
 
     // 3. DP
-    class Solution {
+    class Solution3 {
         public int nthUglyNumber(int n) {
             if(n <= 0) return 0;
 

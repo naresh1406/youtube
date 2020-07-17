@@ -36,7 +36,7 @@ public class Day_02_Binary_Tree_Level_Order_Traversal_II {
     }
 
     // 2.Append
-    class Solution {
+    class Solution2 {
         public List<List<Integer>> levelOrderBottom(TreeNode root) {
             if (root == null) return new ArrayList();
             List<List<Integer>> result = new ArrayList();
@@ -62,7 +62,7 @@ public class Day_02_Binary_Tree_Level_Order_Traversal_II {
     }
 
     // 3. Using Stack
-    class Solution {
+    class Solution3 {
         public List<List<Integer>> levelOrderBottom(TreeNode root) {
             if (root == null) return new ArrayList();
             List<List<Integer>> result = new ArrayList();

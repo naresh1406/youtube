@@ -30,7 +30,7 @@ public class Day_08_3Sum {
     }
 
     // 2. Recursive
-    class Solution {
+    class Solution2 {
         public List<List<Integer>> threeSum(int[] nums) {
             if (nums.length < 3) return new ArrayList<>(); // if nums less than 3 element
             Arrays.sort(nums); // sort array

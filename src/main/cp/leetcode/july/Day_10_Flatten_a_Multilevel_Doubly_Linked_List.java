@@ -41,7 +41,7 @@ public class Day_10_Flatten_a_Multilevel_Doubly_Linked_List {
     }
 
     // 2. With Stack
-    class Solution {
+    class Solution2 {
         public Node flatten(Node head) {
             Stack<Node> stack = new Stack<>();
             Node current = head;
