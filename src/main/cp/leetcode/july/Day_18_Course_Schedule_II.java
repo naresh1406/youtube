@@ -1,9 +1,6 @@
 package main.cp.leetcode.july;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * Day_18_Course_Schedule_II
@@ -87,6 +84,45 @@ public class Day_18_Course_Schedule_II {
             return index == numCourses ? order : new int[0];
         }
     }
+
+    // 3. DFS
+    class Solution3 {
+        public int[] findOrder(int numCourses, int[][] prerequisites) {
+            List<Integer>[] graph = new ArrayList[numCourses];
+            for (int i = 0; i < numCourses; i++)
+                graph[i] = new ArrayList();
+
+            for (int[] p : prerequisites)
+                graph[p[1]].add(p[0]);
+
+            boolean visited[] = new boolean[numCourses];
+            boolean recStack[] = new boolean[numCourses];
+            Stack<Integer> topStack = new Stack();
+
+            for (int i = 0; i < numCourses; i++) {
+                if (visited[i] == false) {
+                    boolean cyclePresent = dfs(graph, visited, i, topStack, recStack);
+                    if (cyclePresent) return new int[0];
+                }
+            }
+
+            int order[] = new int[numCourses];
+            for (int i = 0; i < numCourses; i++)
+                order[i] = topStack.pop();
+
+            return order;
+        }
+
+        private static boolean dfs(List<Integer>[] graph, boolean visited[], int start, Stack<Integer> topStack, boolean recStack[]) {
+            visited[start] = true;
+            recStack[start] = true;
+            for (int c : graph[start]) {
+                if (!visited[c] && dfs(graph, visited, c, topStack, recStack)) return true;
+                else if (recStack[c]) return true;
+            }
+            recStack[start] = false;
+            topStack.push(start);
+            return false;
+        }
+    }
 }
-
-
