@@ -113,7 +113,7 @@ public class Day_18_Course_Schedule_II {
             return order;
         }
 
-        private static boolean dfs(List<Integer>[] graph, boolean visited[], int start, Stack<Integer> topStack, boolean recStack[]) {
+        private boolean dfs(List<Integer>[] graph, boolean visited[], int start, Stack<Integer> topStack, boolean recStack[]) {
             visited[start] = true;
             recStack[start] = true;
             for (int c : graph[start]) {
