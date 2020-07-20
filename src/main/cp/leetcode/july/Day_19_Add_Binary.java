@@ -3,10 +3,10 @@ package main.cp.leetcode.july;
 import java.math.BigInteger;
 
 /**
- * Day_19_Add_Binay
+ * Day_19_Add_Binary
  * Problem Link - https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/546/week-3-july-15th-july-21st/3395/
  */
-public class Day_19_Add_Binay {
+public class Day_19_Add_Binary {
     class Solution {
         public String addBinary(String a, String b) {
             StringBuilder sb = new StringBuilder();
