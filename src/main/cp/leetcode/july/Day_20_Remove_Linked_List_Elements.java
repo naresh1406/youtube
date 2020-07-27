@@ -1,5 +1,7 @@
 package main.cp.leetcode.july;
 
+import main.cp.leetcode.ListNode;
+
 /**
  * Day_20_Remove_Linked_List_Elements
  * Problem Link - https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/546/week-3-july-15th-july-21st/3396/
