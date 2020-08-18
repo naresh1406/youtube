@@ -3,7 +3,7 @@ package main.cp.leetcode.august;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day_18 {
+public class Day_18_Numbers_With_Same_Consecutive_Differences.java {
     class Solution {
         public int[] numsSameConsecDiff(int N, int K) {
             if (N == 1)
