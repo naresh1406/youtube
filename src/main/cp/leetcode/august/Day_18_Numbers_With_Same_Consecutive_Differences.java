@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Day_18_Numbers_With_Same_Consecutive_Differences {
-    public static void main(String[] args) {
-
-    }
     class Solution {
         public int[] numsSameConsecDiff(int N, int K) {
             if (N == 1)
