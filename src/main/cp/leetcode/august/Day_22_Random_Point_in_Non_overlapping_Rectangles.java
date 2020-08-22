@@ -1,5 +1,7 @@
 package main.cp.leetcode.august;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.TreeMap;
 
@@ -28,6 +30,28 @@ public class Day_22_Random_Point_in_Non_overlapping_Rectangles {
             int num = map.ceilingKey(random.nextInt(sum) + 1);
             int[] xy = rects[map.get(num)];
             return new int[]{xy[0] + random.nextInt(xy[2] - xy[0] + 1), xy[1] + random.nextInt(xy[3] - xy[1] + 1)};
+        }
+    }
+
+    // 2. Brute Force TLE
+    class Solution2 {
+
+        List<int[]> list;
+
+        public Solution2(int[][] rects) {
+            list = new ArrayList();
+            for (int i = 0; i < rects.length; i++) {
+                for (int x = rects[i][0]; x <= rects[i][2]; x++) {
+                    for (int y = rects[i][1]; y <= rects[i][3]; y++) {
+                        list.add(new int[]{x, y});
+                    }
+                }
+            }
+        }
+
+        public int[] pick() {
+            Random random = new Random();
+            return list.get(random.nextInt(list.size()));
         }
     }
 /**
