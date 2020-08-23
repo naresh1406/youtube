@@ -12,8 +12,8 @@ public class Day_23_Stream_of_Characters {
         private TrieNode root; // reference for trie root
 
         public StreamChecker(String[] words) {
-            sb = new StringBuilder(); // intialize sb
-            root = new TrieNode(); // initialzie trie root
+            sb = new StringBuilder(); // initialize sb
+            root = new TrieNode(); // initialize trie root
             for (String word : words)
                 insert(word); // insert word in trie
         }
