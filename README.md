@@ -1,5 +1,6 @@
 # [Youtube](https://youtube.com/NareshGupta) 
-| <img src="https://visitor-badge.laobi.icu/badge?page_id=naresh1406.youtube" alt="visitor badge"/> | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/naresh1406/youtube/master) |
+| <img src="https://visitor-badge.laobi.icu/badge?page_id=naresh1406.youtube" alt="visitor badge"/> | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/naresh1406/youtube/master) | [![GitHub forks](https://img.shields.io/github/forks/naresh1406/youtube.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/naresh1406/youtube/)
+
 
 This repository will consist Codes of My YouTube video problems.
 
