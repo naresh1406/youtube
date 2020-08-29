@@ -1,4 +1,6 @@
 # [Youtube](https://youtube.com/NareshGupta) 
+| <img src="https://visitor-badge.laobi.icu/badge?page_id=naresh1406.youtube" alt="visitor badge"/> | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/naresh1406/youtube/master) |
+
 This repository will consist Codes of My YouTube video problems.
 
 # Leetcode :brain:
