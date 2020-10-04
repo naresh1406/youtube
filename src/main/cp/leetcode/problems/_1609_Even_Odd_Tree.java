@@ -29,4 +29,4 @@ public class _1609_Even_Odd_Tree {
             return true;
         }
     }
-}¬
+}
