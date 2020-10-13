@@ -4,7 +4,11 @@
 
 This repository will consist Codes of My YouTube video problems.
 
-# Leetcode :brain:
+
+# Google Coding Competitions
+- [Template & Problems](https://github.com/naresh1406/youtube/tree/master/src/main/cp/google)
+
+# LeetCode :brain:
 - [June Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/june)
 - [July Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/july)
 - [August Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/august)
@@ -12,5 +16,5 @@ This repository will consist Codes of My YouTube video problems.
 - [October Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/october)
 - [Problems](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/problems)
 
-# Codechef :muscle:
+# CodeChef :muscle:
 - [Problems](https://github.com/naresh1406/youtube/tree/master/src/main/cp/codechef)
