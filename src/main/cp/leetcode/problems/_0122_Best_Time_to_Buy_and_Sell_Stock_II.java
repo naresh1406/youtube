@@ -1,6 +1,6 @@
 package main.cp.leetcode.problems;
 
-public class _122_Best_Time_to_Buy_and_Sell_Stock_II {
+public class _0122_Best_Time_to_Buy_and_Sell_Stock_II {
     class Solution {
         public int maxProfit(int[] prices) {
             int maxProfit = 0;
