@@ -23,7 +23,6 @@ public class Day_28_39_Sliding_Window_Maximum {
             return result;
         }
     }
-    ¬
 
     class Solution2 {
         public int[] maxSlidingWindow(int[] nums, int k) {
