@@ -15,6 +15,7 @@ This repository will consist Codes of My YouTube video problems.
 - [September Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/september)
 - [October Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/october)
 - [November Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/november)
+- [December Challenge](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/december)
 - [Problems](https://github.com/naresh1406/youtube/tree/master/src/main/cp/leetcode/problems)
 
 # CodeChef :muscle:
