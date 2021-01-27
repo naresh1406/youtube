@@ -55,6 +55,7 @@ public class Day_26_1631_Path_With_Minimum_Effort {
         }
     }
 
+    // Dijkstra
     class Solution2 {
         public int minimumEffortPath(int[][] h) {
             int R = h.length;
