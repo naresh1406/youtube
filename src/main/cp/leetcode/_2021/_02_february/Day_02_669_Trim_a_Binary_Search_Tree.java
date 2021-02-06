@@ -1,4 +1,4 @@
-package main.cp.leetcode._2021_02_february;
+package main.cp.leetcode._2021._02_february;
 
 import main.cp.leetcode.TreeNode;
 
