@@ -56,7 +56,7 @@ public class _1845_Seat_Reservation_Manager {
 
         private TreeSet<Integer> seats;
 
-        public SeatManager(int n) {
+        public SeatManager_Using_TreeSet(int n) {
             seats = new TreeSet();
             for (int i = 1; i <= n; i++) {
                 seats.add(i);
