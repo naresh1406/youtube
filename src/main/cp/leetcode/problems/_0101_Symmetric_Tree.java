@@ -7,7 +7,7 @@ import java.util.Queue;
 
 /**
  * Created by Naresh Gupta on 20/7/2021 AD.
- * Detailed Video Explanation - https://studio.youtube.com/video/9bt2EGAMEqU/edit
+ * Detailed Video Explanation - https://www.youtube.com/watch?v=9bt2EGAMEqU
  */
 public class _0101_Symmetric_Tree {
     class Solution_DFS {
