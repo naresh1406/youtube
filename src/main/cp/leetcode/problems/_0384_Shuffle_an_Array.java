@@ -3,7 +3,7 @@ package main.cp.leetcode.problems;
 import java.util.Random;
 
 /**
- * Created by Naresh Gupta on 19/7/2021 AD.
+ * Created by Naresh Gupta on 20/7/2021 AD.
  * Detailed Video Explanation - https://www.youtube.com/watch?v=NCpXQshJEk4
  */
 public class _0384_Shuffle_an_Array {
